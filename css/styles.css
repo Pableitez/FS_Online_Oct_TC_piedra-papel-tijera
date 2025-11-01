@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(135deg, #74b9ff, #a29bfe);
+  color: #333;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #2d3436;
+  margin-bottom: 30px;
+}
+
+/* NUEVO contenedor para los botones */
+
+.contenedor-botones {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+/* Botones */
+
+.boton-jugada {
+  background-color: #3498db;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.boton-jugada:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}
+
+/* Resultado */
+
+#resultados {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 30px 0;
+  color: #2d3436;
+  background-color: #dfe6e9;
+  padding: 15px 30px;
+  border-radius: 10px;
+  min-width: 250px;
+}
+
+/* Contadores */
+
+#contador-usuario,
+#contador-ordenador {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #2d3436;
+}
+
+#reiniciar {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #e74c3c;
+  color: white;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+#reiniciar:hover {
+  background-color: #c0392b;
+  transform: translateY(-2px);
+}
